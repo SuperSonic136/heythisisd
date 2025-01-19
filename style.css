@@ -63,3 +63,14 @@ body {
     padding-bottom: 0px;
     height: 1500px;
 }
+
+.playerdetails {
+    text-align: left; 
+    color: #a8a8a8; 
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Helvetica';
+}
