@@ -48,6 +48,18 @@ a {
 
 body {
     text-align: center;
-    color: #ccc;
+
     height: 999px;
+}
+
+.watchplayer {
+    width: 1280px; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 100px;
+    background-color: #646464;
+    padding: 10px;
+    padding-bottom: 0px;
+    height: 1500px;
 }
