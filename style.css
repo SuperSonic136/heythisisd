@@ -2,7 +2,7 @@
     width: 320px;
     height: 180px;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 16px;border-radius: 16px;
     border: solid 3px #fff;
 }
 
@@ -37,4 +37,17 @@ a {
     margin-left: 10px;
     font-weight: bold;
     text-align: center;
+}
+
+.player {
+    width: 1280px;
+    height: 720px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+body {
+    text-align: center;
+    color: #ccc;
+    height: 999px;
 }
