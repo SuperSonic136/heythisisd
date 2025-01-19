@@ -65,9 +65,11 @@ body {
 
 .playerdetails {
     text-align: left; 
+    font-weight: bold;
     color: #a8a8a8; 
-    font-size: 20px; 
-    margin-top: 10px;
+    font-size: 15px; 
+    margin-right: 15px;
+    margin-top: 5px;
 }
 
 p {
