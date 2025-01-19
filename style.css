@@ -1,0 +1,11 @@
+.thumb {
+    width: 640px;
+    height: 360px;
+    object-fit: none;
+    border-radius: 16px;
+    border: solid 3px #fff;
+}
+
+body {
+    background-color: #000;
+}
