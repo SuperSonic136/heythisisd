@@ -1,10 +1,10 @@
-let node = require('node')
+const fs = require('node:fs')
 
 window.requestFileSystem =
   window.requestFileSystem || window.webkitRequestFileSystem;
 window.directoryEntry = window.directoryEntry || window.webkitDirectoryEntry;
 
-let urlparams = urlparams = new URLSearchParams(document.location.search)
+var urlparams = urlparams = new URLSearchParams(document.location.search)
 let id = urlparams.get('v')
 
 class Video extends HTMLElement {
@@ -30,10 +30,4 @@ class Video extends HTMLElement {
 function loadElems() {
     customElements.define("vid-preview", Video);
 }
-
-const folderToReadPath = process.argv.slice(2)[0]; 
-const fs = require('fs'); 
- 
-fs.readdirSync(folderToRead).forEach(file => { 
-  console.log(file); 
-}); 
+console.log(window)
