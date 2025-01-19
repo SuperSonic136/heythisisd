@@ -21,7 +21,13 @@ body {
 }
 
 .vid {
-    width: 320px;
+    width: 327px;
+    text-align: center;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
 }
 
 .details {
