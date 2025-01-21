@@ -3,11 +3,11 @@ class Video extends HTMLElement {
         super();
         this.id = this.getAttribute("vidid");
         this.fetchinfo = fetch("cdn/videos/"+this.id+"/info.json")
-        this.info = JSON.parse(this.fetchinfo)
+        this.info = toString(this.fetchinfo)
     }
 
     connectedCallback() {
-        
+        console.log(JSON.parse('{"js":"fuckingsucks"}'))
         this.innerHTML = `
             <a href="watch.html?v=${this.id}">
                 <div class="vid">
@@ -23,7 +23,6 @@ class Video extends HTMLElement {
 
 var urlparams = urlparams = new URLSearchParams(document.location.search)
 let id = urlparams.get('v')
-console.log(JSON.parse(fetch("cdn/videos/AuY0f0sdri8/info.json")))
 
 function loadElems() {
     customElements.define("vid-preview", Video);
