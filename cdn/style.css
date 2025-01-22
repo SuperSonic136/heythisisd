@@ -24,7 +24,10 @@ body {
     width: 327px;
     text-align: center;
     font-style: normal;
-    padding: 15px;
+    padding: 10px;
+    margin: 15px;
+    border: #999999 1px solid;
+    border-radius: 5px;
 }
 
 a {
@@ -40,8 +43,8 @@ a {
 }
 
 .player {
-    width: auto;
-    height: 720px;
+    width: 100%;
+    height: auto;
 
     border-radius: 4px;
 }
@@ -53,7 +56,8 @@ body {
 }
 
 .watchplayer {
-    width: 1280px; 
+    width: fit-content; 
+    max-height: max-content;
     text-align: center; 
     margin-left: auto; 
     margin-right: auto; 
@@ -61,7 +65,6 @@ body {
     background-color: #646464;
     padding: 10px;
     padding-bottom: 0px;
-    height: 1500px;
 }
 
 .playerdetails {
@@ -79,4 +82,10 @@ p {
 
 span {
     font-family: 'Helvetica';
+}
+
+.vidgrid {
+    display: grid; justify-content: center; width: 1280px;
+    grid-template-columns: repeat(3, 1fr);
+    
 }
